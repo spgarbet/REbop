@@ -1,11 +1,15 @@
 Package: REbop
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A collection of REDCap quality control and operational scripts
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Authors@R: c(person("Shawn",    "Garbett",  email = "Shawn.Garbett@vumc.org",        role = c("aut", "cre")),
+             person("Lynne",   "Berry",  email = "Lynne.Berry@vumc.org", role = c("aut")),
+             person("Milad",   "Abbasi",  email = "Milad.Abbasi@vumc.org", role = c("ctb")),
+             )
+Maintainer: The package maintainer <Shawn.Garbett@vumc.org>
+Description: Import, export and update REDCap data dictionaries. Generates
+    difference reports between two project in Markdown. Generates a
+    quality report in Markdown for a REDCap project.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
