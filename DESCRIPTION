@@ -13,3 +13,4 @@ Description: Import, export and update REDCap data dictionaries. Generates
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.1
